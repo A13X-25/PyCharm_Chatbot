@@ -1,5 +1,5 @@
-# Project Name
-Brief description of your project
+# Prog Basics II Project
+For my Programing Fundamentals 2 Finale, I’ve decided to take on the challenge of creating an AI-powered chatbot designated ARCEUS
 
 ## Features
 Description of key features

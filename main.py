@@ -77,18 +77,18 @@ class LearningChatBot:
         return None
 
     def chat(self):
-        print("Bot: Hello! I'm a learning chatbot. I can learn from our conversations!")
-        print("Bot: Type 'exit' to end the conversation, or 'help' for commands.")
+        print("ARCEUS: Hello! I am Arceus, a learning chatbot. I can learn from our conversations!")
+        print("ARCEUS: Type 'exit' to end the conversation, or 'help' for commands.")
 
         while True:
             user_input: str = input("You: ").strip()
 
             if not user_input:
-                print("Bot: Please enter a valid question.")
+                print("ARCEUS: Please enter a valid question.")
                 continue
 
             if user_input.lower() == "exit":
-                print("Bot: Goodbye! Thanks for chatting!")
+                print("ARCEUS: Goodbye! Thanks for chatting!")
                 break
 
             if user_input.lower() == "help":
@@ -102,7 +102,7 @@ class LearningChatBot:
 
             if best_match and similarity > 0.6:
                 answer = self.get_answer(best_match)
-                print(f'Bot: {answer}')
+                print(f'ARCEUS: {answer}')
 
                 feedback = input("Was this response helpful? (yes/no): ").lower()
                 self.update_interaction_stats(best_match, feedback == "yes")
@@ -111,14 +111,14 @@ class LearningChatBot:
                     new_answer = input("Would you like to provide a better answer? (Enter answer or 'skip'): ").strip()
                     if new_answer.lower() != "skip":
                         self.learn_new_response(user_input, new_answer)
-                        print("Bot: Thank you! I've learned from your feedback!")
+                        print("ARCEUS: Thank you! I've learned from your feedback!")
             else:
-                print("Bot: I don't know how to respond to that yet. Would you like to teach me?")
+                print("ARCEUS: I don't know how to respond to that yet. Would you like to teach me?")
                 new_answer = input("Enter an appropriate response or 'skip': ").strip()
 
                 if new_answer.lower() != "skip":
                     self.learn_new_response(user_input, new_answer)
-                    print("Bot: Thank you! I've learned something new!")
+                    print("ARCEUS: Thank you! I've learned something new!")
 
 
 if __name__ == '__main__':

@@ -16,7 +16,7 @@
       "question": "what can you tell me about penguins?",
       "answer": "sure! When someone asks you about penguins, you can say they live in cold parts of the world!",
       "created_at": "2025-04-27T18:36:26.833396",
-      "times_used": 0
+      "times_used": 1
     },
     {
       "question": "exist",
@@ -28,6 +28,30 @@
       "question": "nice to meet you",
       "answer": "when someone says 'nice to meet you' you say 'thanks'",
       "created_at": "2025-04-28T11:05:00.781829",
+      "times_used": 1
+    },
+    {
+      "question": "what can you learn?",
+      "answer": "when someone asks, you say \"I can learn anything you tell me!\"",
+      "created_at": "2025-04-28T21:14:01.297859",
+      "times_used": 1
+    },
+    {
+      "question": "hello",
+      "answer": "hello to you to, User!",
+      "created_at": "2025-04-28T21:14:23.787469",
+      "times_used": 5
+    },
+    {
+      "question": "how are you?",
+      "answer": "I'm doing alright, how are you?",
+      "created_at": "2025-04-28T21:14:41.981660",
+      "times_used": 3
+    },
+    {
+      "question": "very good!",
+      "answer": "glad to hear that, what would you like to talk about today?",
+      "created_at": "2025-04-29T16:47:53.734627",
       "times_used": 1
     }
   ],
@@ -41,6 +65,31 @@
       "helpful": 1,
       "not_helpful": 0,
       "last_used": "2025-04-28T11:05:16.544544"
+    },
+    "what can you learn?": {
+      "helpful": 1,
+      "not_helpful": 0,
+      "last_used": "2025-04-28T21:14:11.506165"
+    },
+    "hello": {
+      "helpful": 5,
+      "not_helpful": 0,
+      "last_used": "2025-04-29T16:48:01.706829"
+    },
+    "how are you?": {
+      "helpful": 1,
+      "not_helpful": 2,
+      "last_used": "2025-04-29T16:48:08.865463"
+    },
+    "very good!": {
+      "helpful": 0,
+      "not_helpful": 1,
+      "last_used": "2025-04-29T16:48:15.612711"
+    },
+    "what can you tell me about penguins?": {
+      "helpful": 1,
+      "not_helpful": 0,
+      "last_used": "2025-04-29T16:48:30.358374"
     }
   }
 }

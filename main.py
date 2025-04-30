@@ -77,7 +77,7 @@ class LearningChatBot:
         return None
 
     def chat(self):
-        print("ARCEUS: Hello! I am Arceus, a learning chatbot. I can learn from our conversations!")
+        print("ARCEUS: Hello, User! I am Arceus, a learning chatbot. I learn new information from our conversations!")
         print("ARCEUS: Type 'exit' to end the conversation, or 'help' for commands.")
 
         while True:
@@ -88,7 +88,7 @@ class LearningChatBot:
                 continue
 
             if user_input.lower() == "exit":
-                print("ARCEUS: Goodbye! Thanks for chatting!")
+                print("ARCEUS: Farewell, User! Thank you for chatting!")
                 break
 
             if user_input.lower() == "help":
@@ -113,7 +113,7 @@ class LearningChatBot:
                         self.learn_new_response(user_input, new_answer)
                         print("ARCEUS: Thank you! I've learned from your feedback!")
             else:
-                print("ARCEUS: I don't know how to respond to that yet. Would you like to teach me?")
+                print("ARCEUS: Apologies, User. I do not know how to respond to that yet. Would you like to teach me?")
                 new_answer = input("Enter an appropriate response or 'skip': ").strip()
 
                 if new_answer.lower() != "skip":
